@@ -4,60 +4,53 @@
     <title>Nazwa firmy - strona główna</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<header>
-    <h1>Nazwa firmy</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Strona główna</a></li>
-            <li><a href="produkty.html">Produkty</a></li>
-            <li><a href="o-firmie.html">O firmie</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-    </nav>
+<header class="flex-col">
+    <div class="header-top">
+        <div>
+            <h2>EL TIGRE</h2>
+            <h5>venezuela coffee beans</h5>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <div class="header-mid flex-center">
+        <h1>Home of original tastes</h1>
+    </div>
+    <div class="header-bottom flex-center">
+        <button>
+            <span>discover</span>
+            <span>\/</span>
+        </button>
+    </div>
 </header>
 
 <main>
-    <section>
-        <h2>Witaj na stronie naszej firmy!</h2>
-        <p>Tutaj znajdziesz informacje na temat naszych produktów oraz krótką historię naszej firmy.</p>
-        <a href="produkty.html">Sprawdź naszą ofertę</a>
+    <section class="products flex-col">
+        <h2>Products</h2>
+        <div class="product-list flex-col flex-center">
+            <div class="product">product1</div>
+            <div class="product">product2</div>
+            <div class="product">product3</div>
+        </div>
     </section>
+    <section class="about-us flex-center flex-col">
+        <h1>About us</h1>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Autem beatae cum, debitis dolor dolore doloribus ducimus explicabo, facere
+            illum iusto nostrum numquam odit officiis, pariatur praesentium quisquam recusandae rem sed.</div>
+        <p>Join us!</p>
 
-    <section>
-        <h2>Produkty</h2>
-        <p>Tutaj znajdziesz informacje na temat naszych produktów.</p>
-        <ul>
-            <li><a href="#">Produkt 1</a></li>
-            <li><a href="#">Produkt 2</a></li>
-            <li><a href="#">Produkt 3</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>O firmie</h2>
-        <p>Tutaj znajdziesz krótką historię naszej firmy oraz informacje o naszym zespole.</p>
-    </section>
-
-    <section>
-        <h2>Kontakt</h2>
-        <p>Skontaktuj się z nami, jeśli masz pytania lub chcesz złożyć zamówienie.</p>
-        <form action="submit-form.php" method="post">
-            <label for="imie">Imię:</label>
-            <input type="text" id="imie" name="imie" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="wiadomosc">Wiadomość:</label>
-            <textarea id="wiadomosc" name="wiadomosc" required></textarea>
-            <button type="submit">Wyślij</button>
-        </form>
     </section>
 </main>
 
 <footer>
-    <p>&copy; 2023 Nazwa firmy. Wszelkie prawa zastrzeżone.</p>
+    <p>&copy; 2023 Marcin Poręba.</p>
 </footer>
 </body>
 </html>

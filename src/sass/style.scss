@@ -1,63 +1,61 @@
 
 * {
-  border: 1px solid #9ddc9d;
+  outline: 1px solid red;
 }
-/* Resetowanie stylów */
+
 * {
+  border: 1px solid #9ddc9d;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-header {
-
-  padding-top: 20px;
-  width: 700px;
+.flex-center {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-section.splash {
-  color: black;
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
-
-section.splash {
-
-}
-
-
-nav {
-  padding-top: 20px;
-  position: fixed;
-  padding-left: 70%;
+.flex-col {
   display: flex;
-  justify-content: flex-end;
-  justify-items: right;
-
+  flex-direction: column;
 }
 
+header {
+  height: 600px;
 
+  .header-top {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+  }
 
-ul {
-  padding-right: 20%;
-  padding-top: 20px;
-  display: flex;
-  flex-direction: row;
+  .header-mid {
+    flex-grow: 1;
+    h1 {}
+  }
+  .header-bottom {
+    padding-bottom: 20px;
+  }
+}
+.products {
+  .product-list {
+    gap: 20px;
+    padding: 20px 0;
+    .product{
+      width: 60%;
+      height: 200px;
+    }
+  }
+}
+.about-us {
+  h1 {
+    font-size: xxx-large;
+    text-align: center;
+  }
+  p {
+    text-align: end;
+  }
 
 }
-
-li {
-  list-style: none;
-  padding-left: 20px;
+.about-us > * {
+  width: 600px;
 }
-
-
-
