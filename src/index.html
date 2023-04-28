@@ -4,35 +4,52 @@
     <title>Nazwa firmy - strona główna</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,600&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
 <header class="flex-col">
+    <img class="bcg" src="/images/background.png" alt="coffee beans" width="1000" height="200">
+
     <div class="header-top">
-        <div>
+
+        <div class="title">
             <h2>EL TIGRE</h2>
-            <h5>venezuela coffee beans</h5>
+            <h5>VENEZUELA COFFEE BEANS</h5>
         </div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Contact</a>
+
+        <nav class="navbar">
+            <a href="#">HOME</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">CONTACT</a>
         </nav>
+
     </div>
+
     <div class="header-mid flex-center">
-        <h1>Home of original tastes</h1>
+        <h1>home of<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;original tastes</h1>
     </div>
     <div class="header-bottom flex-center">
-        <button>
-            <span>discover</span>
-            <span>\/</span>
-        </button>
+
+        <div class="discover">
+            <a href="#products" class="btn btn-one"> <i class="fa-regular fa-circle-down"></i>DISCOVER</a>
+        </div>
     </div>
+
+
 </header>
 
 <main>
     <section class="products flex-col">
-        <h2>Products</h2>
+        <h2 class="flex-center">PRODUCTS</h2>
         <div class="product-list flex-col flex-center">
             <div class="product">product1</div>
             <div class="product">product2</div>
@@ -40,17 +57,22 @@
         </div>
     </section>
     <section class="about-us flex-center flex-col">
+        <img class="img-about" src="/images/about-us.jpg" alt="coffee beans" >
         <h1>About us</h1>
-        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
             Autem beatae cum, debitis dolor dolore doloribus ducimus explicabo, facere
-            illum iusto nostrum numquam odit officiis, pariatur praesentium quisquam recusandae rem sed.</div>
+           <br> illum iusto nostrum numquam odit officiis, pariatur praesentium quisquam recusandae rem sed.
+           <br> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+            Autem beatae cum, debitis dolor dolore doloribus ducimus explicabo, facere</p>
+        </div>
         <p>Join us!</p>
 
     </section>
 </main>
 
-<footer>
-    <p>&copy; 2023 Marcin Poręba.</p>
-</footer>
+<footer><p>&copy; 2023Marcin Poręba.</p></footer>
+
+
 </body>
 </html>
