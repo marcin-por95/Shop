@@ -27,20 +27,23 @@
         </div>
 
         <nav class="navbar">
-            <a href="#">HOME</a>
-            <a href="#">PRODUCT</a>
-            <a href="#">CONTACT</a>
+            <a href="/index.html">HOME</a>
+            <a href="#product">PRODUCT</a>
+            <a href="/contact.html">CONTACT</a>
         </nav>
 
     </div>
 
     <div class="header-mid flex-center">
-        <h1>home of<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;original tastes</h1>
+        <h1 class="left">HOME OF</h1>
+        <h1 class="right">ORIGINAL TASTES</h1>
+
     </div>
+    <div class="line"></div>
     <div class="header-bottom flex-center">
 
         <div class="discover">
-            <a href="#products" class="btn btn-one"> <i class="fa-regular fa-circle-down"></i>DISCOVER</a>
+            <a href="#product" class="btn btn-one"> <i class="fa-regular fa-circle-down"></i>DISCOVER</a>
         </div>
     </div>
 
@@ -48,31 +51,71 @@
 </header>
 
 <main>
-    <section class="products flex-col">
+    <section class="products flex-col" id="product">
         <h2 class="flex-center">PRODUCTS</h2>
         <div class="product-list flex-col flex-center">
-            <div class="product">product1</div>
-            <div class="product">product2</div>
-            <div class="product">product3</div>
+            <div class="product-row">
+                <div class="product-img">
+                    <img src="/images/coffee-1.png" alt="coffee beans" width="600" height="300">
+                </div>
+                <div class="parameters">
+                    <h4 class="name">01. LA LAGARTIJA</h4>
+                    <p class="characteristic">Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Et, fugit, quod. beatae, culpa delectus dignissimos dolorem eius incidunt iste laboriosam</p>
+                    <div class="product-container">
+                        <div class="parameters">
+                            <p class="rating">ROASTING:5/10</p>
+                            <p class="rating">INTENSITY:6/10</p>
+                            <img class="order" src="/images/most-popular.png" alt="coffee beans" width="130" height="130">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-row">
+                <div class="parameters">
+                    <h4 class="name">02. EL GATO</h4>
+                    <p class="characteristic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Et, fugit, quod. beatae, culpa delectus dignissimos<br> dolorem eius incidunt iste laboriosam</p>
+                    <div class="product-container">
+                        <div class="parameters">
+                            <p class="rating">ROASTING:7/10</p>
+                            <p class="rating">INTENSITY:8/10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-img">
+                    <img src="/images/coffee-2.png" alt="coffee beans" width="1000" height="200">
+                </div>
+            </div>
+            <div class="product-row">
+                <div class="product-img">
+                    <img src="/images/coffee-3.png" alt="coffee beans" width="1000" height="200">
+                </div>
+                <div class="parameters">
+                    <h4 class="name">03. EL TIGRE</h4>
+                    <p class="characteristic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, fugit, quod. beatae, culpa delectus dignissimos dolorem eius incidunt iste laboriosam</p>
+                    <div class="product-container">
+                        <div class="parameters">
+                            <p class="rating">ROASTING:8/10</p>
+                            <p class="rating">INTENSITY:9/10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
     <section class="about-us flex-center flex-col">
-        <img class="img-about" src="/images/about-us.jpg" alt="coffee beans" >
+        <img class="img-about" src="/images/about-us.jpg" alt="coffee beans">
         <h1>About us</h1>
         <div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-            Autem beatae cum, debitis dolor dolore doloribus ducimus explicabo, facere
-           <br> illum iusto nostrum numquam odit officiis, pariatur praesentium quisquam recusandae rem sed.
-           <br> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
-            Autem beatae cum, debitis dolor dolore doloribus ducimus explicabo, facere</p>
+                Autem beatae cum, debitis dolor dolore doloribus ducimus explicabo, facere
+
+                <br> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br> illum iusto nostrum numquam odit officiis, pariatur praesentium quisquam recusandae rem sed.</p>
         </div>
-        <p>Join us!</p>
+        <p class="join-us">Join us!</p>
 
     </section>
 </main>
 
-<footer><p>&copy; 2023Marcin Poręba.</p></footer>
-
-
-</body>
-</html>
+<footer><p>&copy; 2023Marcin Poręba inc.</footer>
