@@ -1,1 +1,87 @@
-{}
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "LA LAGARTIJA",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 5,
+      "intensity": 6,
+      "image": {
+        "src": "/images/coffee-1.png",
+        "alt": "coffee1"
+      }
+    },
+    {
+      "id": 2,
+      "name": "El GATO",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 7,
+      "intensity": 8,
+      "image": {
+        "src": "/images/coffee-2.png",
+        "alt": "coffee2"
+      }
+    },
+    {
+      "id": 3,
+      "name": "El TIGRE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 8,
+      "intensity": 9,
+      "image": {
+        "src": "/images/coffee-3.png",
+        "alt": "coffee3"
+      }
+    },    {
+      "id": 4,
+      "name": "El TIGRE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 8,
+      "intensity": 9,
+      "image": {
+        "src": "/images/coffee-3.png",
+        "alt": "coffee3"
+      }
+    },    {
+      "id": 5,
+      "name": "El TIGRE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 8,
+      "intensity": 9,
+      "image": {
+        "src": "/images/coffee-3.png",
+        "alt": "coffee3"
+      }
+    },    {
+      "id": 6,
+      "name": "El TIGRE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 8,
+      "intensity": 9,
+      "image": {
+        "src": "/images/coffee-3.png",
+        "alt": "coffee3"
+      }
+    },    {
+      "id": 7,
+      "name": "El TIGRE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 8,
+      "intensity": 9,
+      "image": {
+        "src": "/images/coffee-3.png",
+        "alt": "coffee3"
+      }
+    },    {
+      "id": 8,
+      "name": "El TIGRE",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "roasting": 8,
+      "intensity": 9,
+      "image": {
+        "src": "/images/coffee-3.png",
+        "alt": "coffee3"
+      }
+    }
+  ]
+}

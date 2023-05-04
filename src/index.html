@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nazwa firmy - strona główna</title>
+    <title>EL TIGRE - venezuela coffee beans</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,53 +53,7 @@
 <main>
     <section class="products flex-col" id="product">
         <h2 class="flex-center">PRODUCTS</h2>
-        <div class="product-list flex-col flex-center">
-            <div class="product-row">
-                <div class="product-img">
-                    <img src="/images/coffee-1.png" alt="coffee beans" width="600" height="300">
-                </div>
-                <div class="parameters">
-                    <h4 class="name">01. LA LAGARTIJA</h4>
-                    <p class="characteristic">Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Et, fugit, quod. beatae, culpa delectus dignissimos dolorem eius incidunt iste laboriosam</p>
-                    <div class="product-container">
-                        <div class="parameters">
-                            <p class="rating">ROASTING:5/10</p>
-                            <p class="rating">INTENSITY:6/10</p>
-                            <img class="order" src="/images/most-popular.png" alt="coffee beans" width="130" height="130">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="product-row">
-                <div class="parameters">
-                    <h4 class="name">02. EL GATO</h4>
-                    <p class="characteristic">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Et, fugit, quod. beatae, culpa delectus dignissimos<br> dolorem eius incidunt iste laboriosam</p>
-                    <div class="product-container">
-                        <div class="parameters">
-                            <p class="rating">ROASTING:7/10</p>
-                            <p class="rating">INTENSITY:8/10</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-img">
-                    <img src="/images/coffee-2.png" alt="coffee beans" width="1000" height="200">
-                </div>
-            </div>
-            <div class="product-row">
-                <div class="product-img">
-                    <img src="/images/coffee-3.png" alt="coffee beans" width="1000" height="200">
-                </div>
-                <div class="parameters">
-                    <h4 class="name">03. EL TIGRE</h4>
-                    <p class="characteristic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, fugit, quod. beatae, culpa delectus dignissimos dolorem eius incidunt iste laboriosam</p>
-                    <div class="product-container">
-                        <div class="parameters">
-                            <p class="rating">ROASTING:8/10</p>
-                            <p class="rating">INTENSITY:9/10</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="product-list flex-col flex-center" id="product-list">
         </div>
     </section>
 
@@ -119,3 +73,15 @@
 </main>
 
 <footer><p>&copy; 2023Marcin Poręba inc.</footer>
+<script id="template-productList" type="text/x-handlebars-template">
+    {{#each products}}
+        {{> product product=this}}
+    {{/each}}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
+<script src="./js/partials.js" type="module"></script>
+<script src="./js/script.js" type="module"></script>
+</body>
+
+
+</html>
