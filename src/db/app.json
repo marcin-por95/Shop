@@ -32,56 +32,6 @@
         "src": "/images/coffee-3.png",
         "alt": "coffee3"
       }
-    },    {
-      "id": 4,
-      "name": "El TIGRE",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
-      "roasting": 8,
-      "intensity": 9,
-      "image": {
-        "src": "/images/coffee-3.png",
-        "alt": "coffee3"
-      }
-    },    {
-      "id": 5,
-      "name": "El TIGRE",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
-      "roasting": 8,
-      "intensity": 9,
-      "image": {
-        "src": "/images/coffee-3.png",
-        "alt": "coffee3"
-      }
-    },    {
-      "id": 6,
-      "name": "El TIGRE",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
-      "roasting": 8,
-      "intensity": 9,
-      "image": {
-        "src": "/images/coffee-3.png",
-        "alt": "coffee3"
-      }
-    },    {
-      "id": 7,
-      "name": "El TIGRE",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
-      "roasting": 8,
-      "intensity": 9,
-      "image": {
-        "src": "/images/coffee-3.png",
-        "alt": "coffee3"
-      }
-    },    {
-      "id": 8,
-      "name": "El TIGRE",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
-      "roasting": 8,
-      "intensity": 9,
-      "image": {
-        "src": "/images/coffee-3.png",
-        "alt": "coffee3"
-      }
     }
   ]
 }

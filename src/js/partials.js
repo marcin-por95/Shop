@@ -15,7 +15,7 @@ Handlebars.registerPartial('product', `<div class="product-row">
                 <p class="rating">INTENSITY:{{intensity}}/10</p>
 
                 {{#ifEquals id 1}}
-                    <img class="order" src="/images/most-popular.png" alt="Most popular badge" width="130" height="130">
+                    <img class="order" src="/images/most-popular.png" alt="Most popular badge" width="70" height="70">
                 {{/ifEquals}}
             </div>
         </div>
