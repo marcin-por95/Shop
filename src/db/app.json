@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "LA LAGARTIJA",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.consectetur adipisicing elit. Incidunt,",
       "roasting": 5,
       "intensity": 6,
       "image": {
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "name": "El GATO",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.consectetur adipisicing elit. Incidunt,",
       "roasting": 7,
       "intensity": 8,
       "image": {
@@ -25,7 +25,7 @@
     {
       "id": 3,
       "name": "El TIGRE",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, laborum.consectetur adipisicing elit. Incidunt,",
       "roasting": 8,
       "intensity": 9,
       "image": {

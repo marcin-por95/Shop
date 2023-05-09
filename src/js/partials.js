@@ -8,11 +8,13 @@ Handlebars.registerPartial('product', `<div class="product-row">
     </div>
     <div class="parameters">
         <h4 class="name">{{id}}. {{name}}</h4>
+        <hr class="product-line3">
         <p class="characteristic">{{description}}</p>
         <div class="product-container">
             <div class="parameters">
-                <p class="rating">ROASTING:{{roasting}}/10</p>
-                <p class="rating">INTENSITY:{{intensity}}/10</p>
+        <p class="rating">ROASTING:<span class="number">{{roasting}}/10</span></p>
+        <p class="rating">INTENSITY:<span class="number">{{intensity}}/10</span></p>
+
 
                 {{#ifEquals id 1}}
                     <img class="order" src="/images/most-popular.png" alt="Most popular badge" width="70" height="70">
