@@ -1,6 +1,6 @@
 
 hidden = [".config", "package-lock.json"]
-run = "npm i && npm-run-all build && node server.mjs"
+run = "npm i && npm-run-all build && node server.mjs && http-server ./dist"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
